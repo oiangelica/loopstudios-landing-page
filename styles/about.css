@@ -1,0 +1,44 @@
+.main__about {
+    display: flex;
+    margin: 0 5%;
+    
+}
+
+.main__about__image {
+    margin: 10% 5%;
+    width: 50%;
+}
+
+.main__content-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 15%;
+    width: 50%;
+}
+
+.main__content-about_title{    
+    /* background-color: white; */
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding-top: 5%;
+    text-transform: uppercase;
+    /* width: 80%; */
+}
+
+.main_content-about_description {
+    /* background-color: white; */
+    color: var(--gray);
+    font-size: 1rem;
+    line-height:1.7rem;
+    padding: 2% 0;
+    /* width: 80%; */
+}
+
+.div__title_description { 
+    background-color:white;
+    height: 40%;
+    right: 60%;
+    width: 80%;
+}
