@@ -1,44 +1,49 @@
-.main__about {
+.about { 
     display: flex;
+    flex-direction: column;
+}
+
+.main__about {
+    align-items: center;
+    display: flex;
+    height: 100vh;
     margin: 0 5%;
-    
+    width: 90vw;
 }
 
 .main__about__image {
     margin: 10% 5%;
-    width: 50%;
+    position: absolute;
+    width: 50vw;
 }
 
-.main__content-about{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding-bottom: 15%;
-    width: 50%;
+.main__content-about {
+    width: 50%; 
 }
 
-.main__content-about_title{    
-    /* background-color: white; */
+.main__content-about_title {
     font-family: "Josefin Sans", sans-serif;
     font-size: 2.5rem;
     font-weight: 300;
-    padding-top: 5%;
     text-transform: uppercase;
-    /* width: 80%; */
 }
 
 .main_content-about_description {
-    /* background-color: white; */
     color: var(--gray);
     font-size: 1rem;
-    line-height:1.7rem;
+    line-height: 1.7rem;
     padding: 2% 0;
-    /* width: 80%; */
 }
 
-.div__title_description { 
-    background-color:white;
-    height: 40%;
-    right: 60%;
+.div__title_description {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+    left: 40vw;
+    padding: 5% 0 0 5%;
+    position: relative;
+    top: 15vh;
     width: 80%;
 }
